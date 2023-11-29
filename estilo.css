@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: gold;
+    padding: 30px 0px;
+}
+
+.caixa{
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.subcaixa{
+    background-color: rgba(255, 0, 0, 0.20);
+}
+
+input{
+    text-align: center;
+}
+
+#especial{
+    background-color: red;
+}
+
+#calculadora .ecra{
+    background-color: black;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+#calculadora button{
+    font-size: 30px;
+    margin: 10px;
+}
