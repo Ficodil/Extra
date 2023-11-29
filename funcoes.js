@@ -5,7 +5,6 @@ function teclar(caracter){
 
     //Executar
     ecra.innerHTML += caracter;
-    ecra.innerHTML += " C";
 
     calcular();
 
@@ -17,7 +16,7 @@ function limpar(){
     let ecra = document.querySelector(".ecra");
 
     //Executar
-    ecra.innerHTML = "";
+    ecra.innerHTML = "C";
 
     calcular();
 
