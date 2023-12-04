@@ -36,8 +36,8 @@ function calcular(){
         saida.innerHTML = "";
     }
     else{
-        saida.innerHTML = ecra.innerHTML + " = " + resultado + " F <br>"; 
-        saida.innerHTML += ecra.innerHTML + " = " + resultado_1 + " K";
+        saida.innerHTML = ecra.innerHTML + " C = " + resultado + " F <br>"; 
+        saida.innerHTML += ecra.innerHTML + " C = " + resultado_1 + " K";
     }
 
 }

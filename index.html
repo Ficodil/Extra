@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho Extra_Javascript</title>
+    <title>Javascript_Calculadora Digital</title>
     <link rel="stylesheet" href="estilo.css">
     <script src="funcoes.js"></script>
 </head>
 <body>
+
+    <h1>Calculadora Digital</h1>
     
     <div class="caixa" id="calculadora">
 
         <div class="ecra"></div>
 
-        <button onclick="teclar(1)">1</button>
-        <button onclick="teclar(2)">2</button>
-        <button onclick="teclar(3)">3</button>
-        <br>
-        <button onclick="teclar(4)">4</button>
-        <button onclick="teclar(5)">5</button>
-        <button onclick="teclar(6)">6</button>
-        <br>
-        <button onclick="teclar(7)">7</button>
-        <button onclick="teclar(8)">8</button>
-        <button onclick="teclar(9)">9</button>
-        <br>
-        <button onclick="teclar(0)">0</button>
-        <button onclick="teclar('.')">.</button>
-        <button onclick="teclar('-')">-</button>
-        <button onclick="limpar()">CLR</button>
+        <div class="botoes">
+            <button onclick="teclar(1)">1</button>
+            <button onclick="teclar(2)">2</button>
+            <button onclick="teclar(3)">3</button>
+            <br>
+            <button onclick="teclar(4)">4</button>
+            <button onclick="teclar(5)">5</button>
+            <button onclick="teclar(6)">6</button>
+            <br>
+            <button onclick="teclar(7)">7</button>
+            <button onclick="teclar(8)">8</button>
+            <button onclick="teclar(9)">9</button>
+            <br>
+            <button onclick="teclar(0)">0</button>
+            <button onclick="teclar('.')">.</button>
+            <button onclick="teclar('-')">-</button>
+            <button onclick="limpar()">CLR</button>
+        </div>
 
     </div>
 
-    <div class="caixa" id="saida">
-
+    <div class="caixa">
+        <h3>Saida</h3>
+        <br>
+        <div id="saida"></div>
     </div>
 
     <script src="main.js"></script>
