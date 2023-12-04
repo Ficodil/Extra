@@ -16,7 +16,7 @@ function limpar(){
     let ecra = document.querySelector(".ecra");
 
     //Executar
-    ecra.innerHTML = "C";
+    ecra.innerHTML = "";
 
     calcular();
 
